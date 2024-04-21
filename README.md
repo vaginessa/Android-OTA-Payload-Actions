@@ -20,6 +20,8 @@ The following inputs are required when triggering the workflow:
     -   "vendor.img" - The vendor image, which contains the vendor partition.
     -   "vendor_boot.img" - The vendor boot image, which contains the vendor-specific kernel and ramdisk.
 
+## comment by vaginessa: _I use ```*.img``` or even better ```*.*``` to extract ALL partitions!!_
+
 ## Steps
 
 The workflow is composed of the following steps:
