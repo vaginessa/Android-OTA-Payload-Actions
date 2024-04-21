@@ -5,13 +5,13 @@ on:
         inputs:
             ROM_URL:
                 description: "ROM_URL"
-                default: "https://dl.google.com/dl/android/aosp/redfin-up1a.231105.001.b2-factory-4e5a2679.zip"
+                default: "https://googledownloads.cn/dl/android/aosp/redfin-up1a.231105.001.b2-factory-4e5a2679.zip"
             DEVICE_NAME:
                 description: "DEVICE_NAME"
                 default: "redfin"
             EXTRACTED_FILES:
                 description: "EXTRACTED_FILES"
-                default: "boot.img, dtbo.img, product.img, system.img, system_ext.img"
+                default: "boot.img, dtbo.img, product.img, super_empty.img, system.img, system_ext.img, system_other.img, vbmeta.img, vbmeta_system.img, vendor.img, vendor_boot.img"
 
 jobs:
     build-and-release:
