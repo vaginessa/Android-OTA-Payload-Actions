@@ -11,7 +11,7 @@ on:
                 default: "redfin"
             EXTRACTED_FILES:
                 description: "EXTRACTED_FILES"
-                default: "*.img"
+                default: "*.*"
 
 jobs:
     build-and-release:
