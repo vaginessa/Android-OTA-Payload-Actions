@@ -32,6 +32,7 @@ The workflow is composed of the following steps:
     - `ROM_URL`: The URL of the ROM file to be extracted and released.
     - `DEVICE_NAME`: The name of the device for which the ROM is intended.
     - `EXTRACTED_FILES`: A comma-separated list of files to be extracted from the ROM and included in the release (e.g., "boot.img, dtbo.img, product.img").
+      BEST RESULTS GIVES ```*.*``` - it extracts most partitions!!
 7. Click the "Run workflow" button to trigger the workflow with the provided inputs.
 
 ## Note
