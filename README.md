@@ -1,6 +1,8 @@
-# Payload Actions - **FORK by vaginessa**
+# Android OTA Payload Actions - **FORK by vaginessa**
 
-**This GitHub Actions workflow allows you to automatically extract and release specific files from a OTA-updtate or ROM URL.**
+**This GitHub Actions workflow allows you to automatically extract and release specific files from a OTA-updtate or ROM URL.**  
+
+**i use it for for my Google Pixel devices**
 
 ## Inputs
 
