@@ -10,16 +10,6 @@ The following inputs are required when triggering the workflow:
 -   `DEVICE_NAME`: The name of the device for which the ROM is intended.
 -   `EXTRACTED_FILES`: A comma-separated list of files to be extracted from the ROM and included in the release. Available files may include:
 
-    -   "boot.img" - The boot image, which contains the kernel and recovery.
-    -   "dtbo.img" - The device tree binary image, which contains information about the device's hardware.
-    -   "product.img" - The product image, which contains the system's product-specific properties.
-    -   "system.img" - The system image, which contains the system partition.
-    -   "system_ext.img" - The system_ext image, which contains the system_ext partition.
-    -   "vbmeta.img" - The vbmeta image, which contains verified boot metadata.
-    -   "vbmeta_system.img" - The vbmeta_system image, which contains verified boot metadata for the system partition.
-    -   "vendor.img" - The vendor image, which contains the vendor partition.
-    -   "vendor_boot.img" - The vendor boot image, which contains the vendor-specific kernel and ramdisk.
-
 ## comment by vaginessa: _I use ```*.img``` or even better ```*.*``` to extract ALL partitions!!_
 
 ## Steps
