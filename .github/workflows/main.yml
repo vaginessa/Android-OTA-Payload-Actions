@@ -5,7 +5,7 @@ on:
         inputs:
             ROM_URL:
                 description: "ROM_URL"
-                default: "https://googledownloads.cn/dl/android/aosp/redfin-up1a.231105.001.b2-factory-4e5a2679.zip"
+                default: "https://googledownloads.cn/dl/android/aosp/redfin-ota-up1a.231105.001.b2-17322169.zip"
             DEVICE_NAME:
                 description: "DEVICE_NAME"
                 default: "redfin"
